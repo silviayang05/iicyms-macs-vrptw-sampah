@@ -1,0 +1,25 @@
+C101
+
+VEHICLE
+NUMBER     CAPACITY
+  25         100
+
+CUSTOMER
+CUST NO.  LONGITUDE   LATITUDE    DEMAND   READY TIME  DUE DATE   SERVICE TIME   NAME
+ 
+    0    -6.9329450  107.6987109     0          0       1236          0          TPS Gedebage
+    1    -6.9152688  107.7166702    10        912        967         90          Bumi Cilengkrang Indah
+    2    -6.9196581  107.7200303    30        825        870         90          Komplek Vijaya Kusuma
+    3    -6.9258268  107.7180216    10         65        146         90          Eastern Hills Regency
+    4    -6.9126239  107.7202653    10        727        782         90          Pondok Alam Cilengkrang
+    5    -6.9159353  107.7130881    10         15         67         90          Tirtawening
+    6    -6.9279419  107.7164613    20        621        702         90          Komplek Cipadung Permai
+    7    -6.9386498  107.7352344    20        170        225         90          Perumahan Resko
+    8    -6.9021863  107.7215927    20        255        324         90          Puskopad
+    9    -6.9159962  107.7241119    10        534        605         90          Komplek Vijaya Kusuma II
+   10    -6.9211911  107.7233157    10        357        410         90          Manisi Gaya
+   11    -6.9294789  107.7258252    10        448        505         90          Komplek Cibiru Asri 1
+   12    -6.9026576  107.7244194    20        652        721         90          Griya Cilengkrang Indah
+   13    -6.9323241  107.7160237    30         30         92         90          UIN Bandung
+   14    -6.9184229  107.7139641    10        567        620         90          De' Green Mension
+   15    -6.9258567  107.7299897    40        384        429         90          Komplek Cibiru Asri 2
