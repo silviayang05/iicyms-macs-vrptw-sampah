@@ -23,3 +23,8 @@ CUST NO.  LONGITUDE   LATITUDE    DEMAND   READY TIME  DUE DATE   SERVICE TIME  
    13    -6.9323241  107.7160237    30         30         92         90          UIN Bandung
    14    -6.9184229  107.7139641    10        567        620         90          De' Green Mension
    15    -6.9258567  107.7299897    40        384        429         90          Komplek Cibiru Asri 2
+   16    -6.9237039  107.7140425    30        875        900         90          SMA Muhamadiyah 4 Bandung
+   17    -6.9244204  107.7159544    20        460        568         90          SDN 168 Cipadung
+   18    -6.9272858  107.7166318    30        386        411         90          MAN 2 Bandung
+   19    -6.9278284  107.7250171    10         81        100         90          MTS Assawiyah
+   20    -6.9173047  107.7253970    25        120        150         90          SMAN 26 Bandung
