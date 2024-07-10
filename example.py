@@ -3,7 +3,7 @@ from multiple_ant_colony_system import MultipleAntColonySystem
 
 
 if __name__ == '__main__':
-    file_path = './koordinat/koordinat-sampah.txt'
+    file_path = './koordinat/koordinat-sampah-rendah.txt'
     ants_num = 10
     beta = 2
     q0 = 0.1

@@ -14,7 +14,7 @@ CUST NO.  LONGITUDE   LATITUDE    DEMAND   READY TIME  DUE DATE   SERVICE TIME  
     4    -6.9126239  107.7202653    10        727        782         90          Pondok Alam Cilengkrang
     5    -6.9159353  107.7130881    10         15         67         90          Tirtawening
     6    -6.9279419  107.7164613    20        621        702         90          Komplek Cipadung Permai
-    7    -6.9386498  107.7352344    20        170        225         90          Perumahan Resko
+    7    -6.9275787  107.7196590    20        170        225         90          Perumahan Kampung Baru
     8    -6.9021863  107.7215927    20        255        324         90          Puskopad
     9    -6.9159962  107.7241119    10        534        605         90          Komplek Vijaya Kusuma II
    10    -6.9211911  107.7233157    10        357        410         90          Manisi Gaya
@@ -25,6 +25,6 @@ CUST NO.  LONGITUDE   LATITUDE    DEMAND   READY TIME  DUE DATE   SERVICE TIME  
    15    -6.9258567  107.7299897    40        384        429         90          Komplek Cibiru Asri 2
    16    -6.9237039  107.7140425    30        875        900         90          SMA Muhamadiyah 4 Bandung
    17    -6.9244204  107.7159544    20        460        568         90          SDN 168 Cipadung
-   18    -6.9272858  107.7166318    30        386        411         90          MAN 2 Bandung
+   18    -6.9140393  107.7159530    30        234        687         90          Cilengkrang City View
    19    -6.9278284  107.7250171    10         81        100         90          MTS Assawiyah
    20    -6.9173047  107.7253970    25        120        150         90          SMAN 26 Bandung
