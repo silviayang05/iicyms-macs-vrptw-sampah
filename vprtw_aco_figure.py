@@ -55,8 +55,11 @@ class VrptwAcoFigure:
                         line.remove()  # Menggunakan metode remove dari objek Line2D
                     remove_obj.clear()
 
+                    # Menghitung emisi karbon
+                    carbon_emission = distance * 0.147  # kg CO2 per kilometer
+
                     # Menggambar ulang line
-                    self.figure_ax.set_title('travel distance: %0.2f, number of vehicles: %d ' % (distance, used_vehicle_num))
+                    self.figure_ax.set_title('travel distance: %0.2f KM, number of vehicles: %d, carbon emission: %0.2f kg CO2' % (distance, used_vehicle_num, carbon_emission))
                     self._draw_line(path)
                 plt.pause(1)
             except Exception as e:

@@ -33,6 +33,7 @@ class VrptwGraph:
         self.init_pheromone_val = 1/(self.init_pheromone_val * self.node_num)
         self.pheromone_mat = np.ones((self.node_num, self.node_num)) * self.init_pheromone_val
         self.heuristic_info_mat = np.divide(1, self.node_dist_mat, out=np.zeros_like(self.node_dist_mat), where=self.node_dist_mat!=0)
+        self.carbon_emission_factor = 0.147  # kg CO2 per kilometer
 
     def copy(self, init_pheromone_val):
         new_graph = copy.deepcopy(self)
@@ -71,7 +72,10 @@ class VrptwGraph:
 
     @staticmethod
     def calculate_dist(node_a, node_b):
-        return np.linalg.norm((node_a.longitude - node_b.longitude, node_a.latitude - node_b.latitude))
+        # Konversi derajat ke kilometer
+        degree_to_km = 111
+        dist_in_degrees = np.linalg.norm((node_a.longitude - node_b.longitude, node_a.latitude - node_b.latitude))
+        return dist_in_degrees * degree_to_km
 
     def local_update_pheromone(self, start_ind, end_ind):
         self.pheromone_mat[start_ind][end_ind] = (1-self.rho) * self.pheromone_mat[start_ind][end_ind] + self.rho * self.init_pheromone_val
